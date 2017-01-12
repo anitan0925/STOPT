@@ -1,7 +1,7 @@
 # STOPT
 This code implements stochastic optimization methods for linear models, which currently includes
 
-Methods: averaged SGD[1], SVRG[2], SAGA[3], and AMSVRG[4].
+Methods: Averaged SGD[1], SVRG[2], SAGA[3], and AMSVRG[4].
 
 Models: L2-regularized multi-class logistic regression.
 
@@ -13,7 +13,7 @@ For usage, see codes in ./examples/log_reg.
 To build and run an example of logistic regression on MNIST, use the following command with appropriate modifications, which require the compiler with c++11.
 
 ```
-cd example/log_reg
+cd examples/log_reg
 make compile
 python get_mnist.py
 make test_sgd
@@ -75,6 +75,6 @@ accuracy: 55932/60000(0.9322000000000000)
 
 [2] [R. Johnson and T. Zhang. Accelerating Stochastic Gradient Descent using Predictive Variance Reduction. NIPS, 2013.](https://papers.nips.cc/paper/4937-accelerating-stochastic-gradient-descent-using-predictive-variance-reduction.pdf)
 
-[3] [A. Defazio, F. Bach, and S. Lacoste-Julien] SAGA: A Fast Incremental Gradient Method with Support for Non-strongly Convex Composite Objectives. NIPS, 2014.](https://papers.nips.cc/paper/5258-saga-a-fast-incremental-gradient-method-with-support-for-non-strongly-convex-composite-objectives.pdf)
+[3] [A. Defazio, F. Bach, and S. Lacoste-Julien SAGA: A Fast Incremental Gradient Method with Support for Non-strongly Convex Composite Objectives. NIPS, 2014.](https://papers.nips.cc/paper/5258-saga-a-fast-incremental-gradient-method-with-support-for-non-strongly-convex-composite-objectives.pdf)
 
 [4] [A. Nitanda. Accelerated Stochastic Gradient Descent for Minimizing Finite Sums. AISTATS, 2016.](http://www.jmlr.org/proceedings/papers/v51/nitanda16.pdf)
