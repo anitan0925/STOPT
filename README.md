@@ -5,7 +5,7 @@ Methods: Averaged SGD[1], SVRG[2], SAGA[3], and AMSVRG[4].
 
 Models: L2-regularized multi-class logistic regression.
 
-Note that sparse implementation for SVRG and SVRG is not supported.
+Note that sparse implementation for SVRG and SAGA is not supported.
 
 For usage, see codes in ./examples/log_reg.
 
