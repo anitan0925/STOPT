@@ -1,0 +1,12 @@
+{
+    "lambda" : 1e-5,
+    "eta" : 1e+4,
+    "t0"  : 1e+5,
+    "e"   : 1,
+    "epoch" : 10,
+    "input" : "mnist.scale",
+    "progress" : "progress_sgd.txt",
+    "weight" : "weight_sgd.txt",
+    "astart" : 10000,        
+    "biased_flag" : true
+}

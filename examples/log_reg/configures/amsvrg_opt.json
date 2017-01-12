@@ -1,0 +1,11 @@
+{
+    "lambda" : 1e-5,
+    "eta" : 1.0,
+    "epoch" : 10,
+    "input" : "mnist.scale",
+    "progress" : "progress_amsvrg.txt",
+    "weight" : "weight_amsvrg.txt",
+    "accuracy" : 0.1,
+    "biased_flag" : true,
+    "restart_method" : 1
+}
