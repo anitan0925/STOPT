@@ -26,7 +26,7 @@ if not os.path.exists( train_file.replace(u'.bz2',u'') ):
         fin.close()
         fout = open( filename.replace(u'.bz2',u''), u'w' )
         for l in lines:
-            print >>fout,l,
+            print(str(l,'utf-8').strip(),file=fout)
         fout.close()
 
     uncompress( train_file )
